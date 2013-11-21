@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14479A4C183E123500683EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14479A4B183E123500683EC5 /* UIKit.framework */; };
+		14479A4E183E123500683EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14479A4D183E123500683EC5 /* Foundation.framework */; };
+		14479A50183E123500683EC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14479A4F183E123500683EC5 /* CoreGraphics.framework */; };
+		14479A56183E123500683EC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14479A54183E123500683EC5 /* InfoPlist.strings */; };
+		14479A58183E123500683EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14479A57183E123500683EC5 /* main.m */; };
+		14479A5C183E123500683EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14479A5B183E123500683EC5 /* AppDelegate.m */; };
+		14479A5E183E123500683EC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 14479A5D183E123500683EC5 /* Default.png */; };
+		14479A60183E123500683EC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14479A5F183E123500683EC5 /* Default@2x.png */; };
+		14479A62183E123500683EC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14479A61183E123500683EC5 /* Default-568h@2x.png */; };
+		14479A65183E123500683EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14479A64183E123500683EC5 /* ViewController.m */; };
+		14479A68183E123500683EC5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14479A66183E123500683EC5 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14479A48183E123500683EC5 /* gitTTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14479A4B183E123500683EC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14479A4D183E123500683EC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14479A4F183E123500683EC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14479A53183E123500683EC5 /* gitTTTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTTTT-Info.plist"; sourceTree = "<group>"; };
+		14479A55183E123500683EC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14479A57183E123500683EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14479A59183E123500683EC5 /* gitTTTT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gitTTTT-Prefix.pch"; sourceTree = "<group>"; };
+		14479A5A183E123500683EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14479A5B183E123500683EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14479A5D183E123500683EC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		14479A5F183E123500683EC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		14479A61183E123500683EC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14479A63183E123500683EC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14479A64183E123500683EC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14479A67183E123500683EC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14479A45183E123500683EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14479A4C183E123500683EC5 /* UIKit.framework in Frameworks */,
+				14479A4E183E123500683EC5 /* Foundation.framework in Frameworks */,
+				14479A50183E123500683EC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14479A3F183E123500683EC5 = {
+			isa = PBXGroup;
+			children = (
+				14479A51183E123500683EC5 /* gitTTTT */,
+				14479A4A183E123500683EC5 /* Frameworks */,
+				14479A49183E123500683EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14479A49183E123500683EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14479A48183E123500683EC5 /* gitTTTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14479A4A183E123500683EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14479A4B183E123500683EC5 /* UIKit.framework */,
+				14479A4D183E123500683EC5 /* Foundation.framework */,
+				14479A4F183E123500683EC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14479A51183E123500683EC5 /* gitTTTT */ = {
+			isa = PBXGroup;
+			children = (
+				14479A5A183E123500683EC5 /* AppDelegate.h */,
+				14479A5B183E123500683EC5 /* AppDelegate.m */,
+				14479A63183E123500683EC5 /* ViewController.h */,
+				14479A64183E123500683EC5 /* ViewController.m */,
+				14479A66183E123500683EC5 /* ViewController.xib */,
+				14479A52183E123500683EC5 /* Supporting Files */,
+			);
+			path = gitTTTT;
+			sourceTree = "<group>";
+		};
+		14479A52183E123500683EC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14479A53183E123500683EC5 /* gitTTTT-Info.plist */,
+				14479A54183E123500683EC5 /* InfoPlist.strings */,
+				14479A57183E123500683EC5 /* main.m */,
+				14479A59183E123500683EC5 /* gitTTTT-Prefix.pch */,
+				14479A5D183E123500683EC5 /* Default.png */,
+				14479A5F183E123500683EC5 /* Default@2x.png */,
+				14479A61183E123500683EC5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14479A47183E123500683EC5 /* gitTTTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14479A6B183E123500683EC5 /* Build configuration list for PBXNativeTarget "gitTTTT" */;
+			buildPhases = (
+				14479A44183E123500683EC5 /* Sources */,
+				14479A45183E123500683EC5 /* Frameworks */,
+				14479A46183E123500683EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gitTTTT;
+			productName = gitTTTT;
+			productReference = 14479A48183E123500683EC5 /* gitTTTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14479A40183E123500683EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = pengyucheng;
+			};
+			buildConfigurationList = 14479A43183E123500683EC5 /* Build configuration list for PBXProject "gitTTTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14479A3F183E123500683EC5;
+			productRefGroup = 14479A49183E123500683EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14479A47183E123500683EC5 /* gitTTTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14479A46183E123500683EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14479A56183E123500683EC5 /* InfoPlist.strings in Resources */,
+				14479A5E183E123500683EC5 /* Default.png in Resources */,
+				14479A60183E123500683EC5 /* Default@2x.png in Resources */,
+				14479A62183E123500683EC5 /* Default-568h@2x.png in Resources */,
+				14479A68183E123500683EC5 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14479A44183E123500683EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14479A58183E123500683EC5 /* main.m in Sources */,
+				14479A5C183E123500683EC5 /* AppDelegate.m in Sources */,
+				14479A65183E123500683EC5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14479A54183E123500683EC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14479A55183E123500683EC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14479A66183E123500683EC5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14479A67183E123500683EC5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14479A69183E123500683EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14479A6A183E123500683EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14479A6C183E123500683EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gitTTTT/gitTTTT-Prefix.pch";
+				INFOPLIST_FILE = "gitTTTT/gitTTTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14479A6D183E123500683EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gitTTTT/gitTTTT-Prefix.pch";
+				INFOPLIST_FILE = "gitTTTT/gitTTTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14479A43183E123500683EC5 /* Build configuration list for PBXProject "gitTTTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14479A69183E123500683EC5 /* Debug */,
+				14479A6A183E123500683EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14479A6B183E123500683EC5 /* Build configuration list for PBXNativeTarget "gitTTTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14479A6C183E123500683EC5 /* Debug */,
+				14479A6D183E123500683EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14479A40183E123500683EC5 /* Project object */;
+}
